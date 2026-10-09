@@ -1,0 +1,344 @@
+{
+  "courses": [
+    {
+      "id" : 1,
+      "courseName": "Android Development with Kotlin",
+      "instructorName": "Rahul Sharma",
+      "progress": 75,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Introduction to Android",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Kotlin Basics",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Activities and Fragments",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "RecyclerView",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "API Integration",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "courseName": "Kotlin Coroutines",
+      "instructorName": "Priya Kumar",
+      "progress": 60,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Coroutine Basics",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Suspend Functions",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Coroutine Scope",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Structured Concurrency",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Exception Handling",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 3,
+      "courseName": "Jetpack Compose",
+      "instructorName": "Arun Kumar",
+      "progress": 40,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Compose Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Composable Functions",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "State and Recomposition",
+          "completed": false
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Layouts",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Navigation",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "courseName": "Android Architecture",
+      "instructorName": "Vikram Singh",
+      "progress": 80,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "MVVM Architecture",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Repository Pattern",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Clean Architecture",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Dependency Injection",
+          "completed": true
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Testing Architecture",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 5,
+      "courseName": "Retrofit and REST API",
+      "instructorName": "Neha Verma",
+      "progress": 20,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "REST API Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Retrofit Setup",
+          "completed": false
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "GET and POST Requests",
+          "completed": false
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Error Handling",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Authentication",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 6,
+      "courseName": "Room Database",
+      "instructorName": "Amit Patel",
+      "progress": 100,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Room Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Entity and DAO",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Database Setup",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "CRUD Operations",
+          "completed": true
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Room with Flow",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id" : 7,
+      "courseName": "Hilt Dependency Injection",
+      "instructorName": "Sneha Reddy",
+      "progress": 60,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Dependency Injection Basics",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Hilt Setup",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Modules",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Injecting ViewModels",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Advanced Hilt",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 8,
+      "courseName": "Flutter Development",
+      "instructorName": "Karthik Raj",
+      "progress": 40,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Flutter Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Dart Basics",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "Widgets",
+          "completed": false
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "State Management",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Navigation",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 9,
+      "courseName": "Flutter BLoC",
+      "instructorName": "Divya Menon",
+      "progress": 80,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "BLoC Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Events and States",
+          "completed": true
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "BlocProvider",
+          "completed": true
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "API Integration",
+          "completed": true
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Error Handling",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id" : 10,
+      "courseName": "Mobile App Testing",
+      "instructorName": "Ravi Kumar",
+      "progress": 20,
+      "numberOfLessons": 5,
+      "lessons": [
+        {
+          "lessonId": 1,
+          "lessonName": "Testing Introduction",
+          "completed": true
+        },
+        {
+          "lessonId": 2,
+          "lessonName": "Unit Testing",
+          "completed": false
+        },
+        {
+          "lessonId": 3,
+          "lessonName": "UI Testing",
+          "completed": false
+        },
+        {
+          "lessonId": 4,
+          "lessonName": "Mocking",
+          "completed": false
+        },
+        {
+          "lessonId": 5,
+          "lessonName": "Integration Testing",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
