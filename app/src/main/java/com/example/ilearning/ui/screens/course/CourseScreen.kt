@@ -2,6 +2,8 @@ package com.example.ilearning.ui.screens.course
 
 
 
+import android.os.SystemClock
+import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -97,6 +99,7 @@ fun CourseScreen(
                                 )
                             }
                         }
+                        Log.d("Perf", "course screen composed ${SystemClock.elapsedRealtime()}")
                     }
                 }
 
@@ -107,12 +110,7 @@ fun CourseScreen(
                     )
                 }
 
-                is Response.Empty -> {
-                    Text(
-                        text = "No courses available",
-                        modifier = Modifier.align(Alignment.Center)
-                    )
-                }
+                is Response.Empty -> { }
             }
         }
     }

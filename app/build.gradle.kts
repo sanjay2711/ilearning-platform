@@ -68,4 +68,6 @@ dependencies {
     implementation("com.google.code.gson:gson:2.13.2")
     implementation("androidx.navigation:navigation-compose:2.10.2")
     implementation("androidx.compose.runtime:runtime-saveable")
+    implementation(libs.room.runtime)
+    ksp(libs.room.compiler)
 }

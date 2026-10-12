@@ -19,7 +19,7 @@ class MockApiService @Inject constructor(
 
     suspend fun login(loginRequest: LoginRequest): MockResponse<LoginResponse?> {
 
-        delay(1500.milliseconds)
+        delay(1000.milliseconds)
 
         val email = "sanjay@gmail.com"
         val pass = "sanjay123"

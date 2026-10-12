@@ -3,34 +3,20 @@ package com.example.ilearning.domain.repository
 import com.example.ilearning.data.remote.MockApiService
 import com.example.ilearning.data.remote.MockResponse
 import com.example.ilearning.data.remote.Response
-import com.example.ilearning.data.repository.RemoteRepository
-import com.example.ilearning.domain.models.Course
-import com.example.ilearning.domain.models.CourseResponse
+import com.example.ilearning.data.repository.LoginRepository
 import com.example.ilearning.domain.models.LoginRequest
 import com.example.ilearning.domain.models.LoginResponse
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
-class RemoteRepositoryImpl @Inject constructor(
+class LoginRepositoryImpl @Inject constructor(
     private val api: MockApiService
-) : RemoteRepository {
+) : LoginRepository {
 
 
     override suspend fun login(loginRequest: LoginRequest) = flow {
-
+        emit(Response.Loading)
         val result: Response<LoginResponse?> = safeApiCall { api.login(loginRequest) }
-        emit(result)
-    }
-
-
-    override suspend fun getCourse(): Flow<Response<CourseResponse?>> = flow {
-        val result: Response<CourseResponse?> = safeApiCall { api.getCourse() }
-        emit(result)
-    }
-
-    override suspend fun getCourseById(id : Int): Flow<Response<Course?>> = flow {
-        val result : Response<Course?> = safeApiCall {  api.getCourseById(id) }
         emit(result)
     }
 

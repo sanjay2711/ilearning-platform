@@ -1,6 +1,8 @@
 package com.example.ilearning.ui.screens.login
 
 import android.content.Context
+import android.os.SystemClock
+import android.util.Log
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -73,6 +75,7 @@ fun LoginScreen(
     LaunchedEffect(loginState) {
         when (val state = loginState) {
             is Response.Success -> {
+                Log.d("Perf", "login done, navigating ${SystemClock.elapsedRealtime()}")
                 onLoginSuccess()
             }
 
@@ -200,6 +203,7 @@ fun LoginScreen(
                     enabled = !isLoading,
                     onClick = {
                         if (handleCredentials(email, password)) {
+                            Log.d("Perf", "login start ${SystemClock.elapsedRealtime()}")
                             loginViewModel.login(
                                 email.trim(),
                                 password
